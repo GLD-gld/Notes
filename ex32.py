@@ -72,6 +72,7 @@ for i in elements:
             list1.extend(list2)
 
     The list() Constructor: thislist = list(("apple","banana","cherry"))
+    
     List Methods:
         Method	    Description
         append()	Adds an element at the end of the list
