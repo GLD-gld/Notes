@@ -1,2 +1,2 @@
-# Python
+# 文稿
 This is a practice
