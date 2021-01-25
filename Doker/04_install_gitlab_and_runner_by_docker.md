@@ -14,6 +14,7 @@ volumes:
 services:
   gitlab-web:
     image: gitlab/gitlab-ce:latest
+    restart: always
     container_name: gitlab-web
     hostname: gitlab-web
     volumes:
@@ -33,6 +34,7 @@ services:
 
   gitlab-runner1:
     image: gitlab/gitlab-runner:latest
+    restart: always
     container_name: gitlab-runner1
     hostname: gitlab-runner1
     volumes:

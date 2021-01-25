@@ -23,6 +23,10 @@ vim /etc/docker/daemon.json
     "https://mirror.baidubce.com"
   ]
 }
+or
+{
+  "registry-mirrors": ["https://registry.cn-hangzhou.aliyuncs.com"]
+}
 
 6.重新加载配置文件
 systemctl daemon-reload
